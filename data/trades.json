@@ -9983,9 +9983,9 @@
   {
     "description": "AXON ENTERPRISE INC COM",
     "type": "purchase",
-    "date": "2028-02-10",
+    "date": "2026-02-10",
     "amount": "$1,000,001 - $5,000,000",
-    "date_ocr_fixed": false,
+    "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
     "page": 2
   },
@@ -10370,7 +10370,7 @@
   {
     "description": "ECOLAB INC",
     "type": "purchase",
-    "date": "2028-03-17",
+    "date": "2026-03-17",
     "amount": "$250,001 - $500,000",
     "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
@@ -10379,7 +10379,7 @@
   {
     "description": "INVITATION HOMES INC COM",
     "type": "purchase",
-    "date": "2028-01-06",
+    "date": "2026-01-06",
     "amount": "$250,001 - $500,000",
     "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
@@ -10388,7 +10388,7 @@
   {
     "description": "ISHARES U.s: TREASURY BOND ETF",
     "type": "purchase",
-    "date": "2028-03-10",
+    "date": "2026-03-10",
     "amount": "$250,001 - $500,000",
     "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
@@ -11441,7 +11441,7 @@
   {
     "description": "PROCTER & GAMBLE CO UNSOLICITED",
     "type": "purchase",
-    "date": "2028-03-21",
+    "date": "2026-03-21",
     "amount": "$50,001 - $100,000",
     "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
@@ -11477,9 +11477,9 @@
   {
     "description": "SOUTl1ERN CO",
     "type": "purchase",
-    "date": "2028-01-12",
+    "date": "2026-01-12",
     "amount": "$50,001 - $100,000",
-    "date_ocr_fixed": false,
+    "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
     "page": 17
   },
@@ -11504,9 +11504,9 @@
   {
     "description": "GRIFFON CORP",
     "type": "purchase",
-    "date": "2028-03-30",
+    "date": "2026-03-30",
     "amount": "$50,001 - $100,000",
-    "date_ocr_fixed": false,
+    "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
     "page": 18
   },
@@ -11702,9 +11702,9 @@
   {
     "description": "CORPAYINC",
     "type": "purchase",
-    "date": "2028-03-18",
+    "date": "2026-03-18",
     "amount": "$50,001 - $100,000",
-    "date_ocr_fixed": false,
+    "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
     "page": 20
   },
@@ -11765,27 +11765,27 @@
   {
     "description": "VANGUARD INTERMEDIATE-TERM CORPORATE BOND INDEX FUN",
     "type": "purchase",
-    "date": "2028-03-10",
+    "date": "2026-03-10",
     "amount": "$15,001 - $50,000",
-    "date_ocr_fixed": false,
+    "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
     "page": 21
   },
   {
     "description": "UPWORKINC",
     "type": "purchase",
-    "date": "2028-03-30",
+    "date": "2026-03-30",
     "amount": "$15,001 - $50,000",
-    "date_ocr_fixed": false,
+    "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
     "page": 21
   },
   {
     "description": "SERVISFIRST BANCSHARES",
     "type": "purchase",
-    "date": "2028-03-04",
+    "date": "2026-03-04",
     "amount": "$15,001 - $50,000",
-    "date_ocr_fixed": false,
+    "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
     "page": 21
   },
@@ -11945,7 +11945,7 @@
   {
     "description": "SYNCHRONY FINL UNSOLICITED",
     "type": "purchase",
-    "date": "2028-03-25",
+    "date": "2026-03-25",
     "amount": "$15,001 - $50,000",
     "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
@@ -12188,9 +12188,9 @@
   {
     "description": "CUMMINS INC UNSOLICITED",
     "type": "purchase",
-    "date": "2028-03-23",
+    "date": "2026-03-23",
     "amount": "$15,001 - $50,000",
-    "date_ocr_fixed": false,
+    "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
     "page": 29
   },
@@ -12206,7 +12206,7 @@
   {
     "description": "NUCOR CORP UNSOLICITED",
     "type": "purchase",
-    "date": "2028-03-23",
+    "date": "2026-03-23",
     "amount": "$15,001 - $50,000",
     "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
@@ -12242,16 +12242,16 @@
   {
     "description": "TARGA RESOURCES CORP UNSOLICITED",
     "type": "purchase",
-    "date": "2028-03-23",
+    "date": "2026-03-23",
     "amount": "$15,001 - $50,000",
-    "date_ocr_fixed": false,
+    "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
     "page": 30
   },
   {
     "description": "ALLSTATE CORP UNSOLICITED",
     "type": "purchase",
-    "date": "2028-03-23",
+    "date": "2026-03-23",
     "amount": "$15,001 - $50,000",
     "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
@@ -12296,9 +12296,9 @@
   {
     "description": "DELL TECHNOLOGIES INC CL C UNSOLICITED",
     "type": "purchase",
-    "date": "2028-03-02",
+    "date": "2026-03-02",
     "amount": "$15,001 - $50,000",
-    "date_ocr_fixed": false,
+    "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
     "page": 30
   },
@@ -12539,7 +12539,7 @@
   {
     "description": "ENOVISCORP",
     "type": "purchase",
-    "date": "2028-02-26",
+    "date": "2026-02-26",
     "amount": "$15,001 - $50,000",
     "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
@@ -12548,16 +12548,16 @@
   {
     "description": "INTUIT UNSOLICITED",
     "type": "purchase",
-    "date": "2028-03-12",
+    "date": "2026-03-12",
     "amount": "$15,001 - $50,000",
-    "date_ocr_fixed": false,
+    "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
     "page": 33
   },
   {
     "description": "PTC INC COM UNSOLICITED",
     "type": "purchase",
-    "date": "2028-03-12",
+    "date": "2026-03-12",
     "amount": "$15,001 - $50,000",
     "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
@@ -12575,16 +12575,16 @@
   {
     "description": "WARNER BROS DISCOVERY INC UNSOLICITED",
     "type": "purchase",
-    "date": "2028-03-12",
+    "date": "2026-03-12",
     "amount": "$15,001 - $50,000",
-    "date_ocr_fixed": false,
+    "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
     "page": 33
   },
   {
     "description": "BOSTON SCIENTIFIC CORP UNSOLICITED",
     "type": "purchase",
-    "date": "2028-03-12",
+    "date": "2026-03-12",
     "amount": "$15,001 - $50,000",
     "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
@@ -12611,7 +12611,7 @@
   {
     "description": "QUINSTREET INC",
     "type": "purchase",
-    "date": "2028-02-26",
+    "date": "2026-02-26",
     "amount": "$15,001 - $50,000",
     "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
@@ -12647,9 +12647,9 @@
   {
     "description": "MASTERCARD INC CL A UNSOLICITED",
     "type": "purchase",
-    "date": "2028-03-12",
+    "date": "2026-03-12",
     "amount": "$15,001 - $50,000",
-    "date_ocr_fixed": false,
+    "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
     "page": 33
   },
@@ -12953,9 +12953,9 @@
   {
     "description": "ADOBE INC. !DELAWARE\\ UNSOLICITED",
     "type": "purchase",
-    "date": "2028-03-11",
+    "date": "2026-03-11",
     "amount": "$15,001 - $50,000",
-    "date_ocr_fixed": false,
+    "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
     "page": 39
   },
@@ -12971,9 +12971,9 @@
   {
     "description": "GOLDMAN SACHS GROUP INC UNSOLICITED",
     "type": "purchase",
-    "date": "2028-03-11",
+    "date": "2026-03-11",
     "amount": "$15,001 - $50,000",
-    "date_ocr_fixed": false,
+    "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
     "page": 39
   },
@@ -12989,18 +12989,18 @@
   {
     "description": "AT&T INC UNSOLICITED",
     "type": "purchase",
-    "date": "2028-03-11",
+    "date": "2026-03-11",
     "amount": "$15,001 - $50,000",
-    "date_ocr_fixed": false,
+    "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
     "page": 39
   },
   {
     "description": "WORKDAY INC CL A UNSOLICITED",
     "type": "purchase",
-    "date": "2028-03-11",
+    "date": "2026-03-11",
     "amount": "$15,001 - $50,000",
-    "date_ocr_fixed": false,
+    "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
     "page": 39
   },
@@ -13259,9 +13259,9 @@
   {
     "description": "KINETIK HLDGS INC CLASS A",
     "type": "purchase",
-    "date": "2028-03-04",
+    "date": "2026-03-04",
     "amount": "$15,001 - $50,000",
-    "date_ocr_fixed": false,
+    "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
     "page": 46
   },
@@ -13304,7 +13304,7 @@
   {
     "description": "MATSON INC",
     "type": "purchase",
-    "date": "2028-01-26",
+    "date": "2026-01-26",
     "amount": "$15,001 - $50,000",
     "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
@@ -13565,9 +13565,9 @@
   {
     "description": "INSPERITY INC",
     "type": "purchase",
-    "date": "2028-02-12",
+    "date": "2026-02-12",
     "amount": "$15,001 - $50,000",
-    "date_ocr_fixed": false,
+    "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
     "page": 51
   },
@@ -13871,27 +13871,27 @@
   {
     "description": "GOLDMAN SACHS GROUP INC",
     "type": "purchase",
-    "date": "2028-03-17",
+    "date": "2026-03-17",
     "amount": "$1,001 - $15,000",
-    "date_ocr_fixed": false,
+    "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
     "page": 56
   },
   {
     "description": "SALESFORCE INC",
     "type": "purchase",
-    "date": "2028-02-12",
+    "date": "2026-02-12",
     "amount": "$1,001 - $15,000",
-    "date_ocr_fixed": false,
+    "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
     "page": 56
   },
   {
     "description": "PHILIP MORRIS INTI. INC",
     "type": "purchase",
-    "date": "2028-03-17",
+    "date": "2026-03-17",
     "amount": "$1,001 - $15,000",
-    "date_ocr_fixed": false,
+    "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
     "page": 56
   },
@@ -14555,9 +14555,9 @@
   {
     "description": "OOXIMITY INC CLASS A",
     "type": "purchase",
-    "date": "2028-02-12",
+    "date": "2026-02-12",
     "amount": "$1,001 - $15,000",
-    "date_ocr_fixed": false,
+    "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
     "page": 69
   },
@@ -14942,9 +14942,9 @@
   {
     "description": "MOLINA HEALTHCARE INC",
     "type": "sale",
-    "date": "2028-03-26",
+    "date": "2026-03-26",
     "amount": "$1,001 - $15,000",
-    "date_ocr_fixed": false,
+    "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
     "page": 74
   },
@@ -14996,9 +14996,9 @@
   {
     "description": "ASTERA LABS INC",
     "type": "sale",
-    "date": "2028-02-12",
+    "date": "2026-02-12",
     "amount": "$1,001 - $15,000",
-    "date_ocr_fixed": false,
+    "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
     "page": 74
   },
@@ -15032,9 +15032,9 @@
   {
     "description": "CONSTELLATION ENERGY COR",
     "type": "sale",
-    "date": "2028-02-23",
+    "date": "2026-02-23",
     "amount": "$1,001 - $15,000",
-    "date_ocr_fixed": false,
+    "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
     "page": 74
   },
@@ -15329,9 +15329,9 @@
   {
     "description": "METLIFEINC",
     "type": "sale",
-    "date": "2028-02-23",
+    "date": "2026-02-23",
     "amount": "$1,001 - $15,000",
-    "date_ocr_fixed": false,
+    "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
     "page": 77
   },
@@ -15464,9 +15464,9 @@
   {
     "description": "LIBERTY MEDIA CORP LIBERTY FORMULA ONE SER C",
     "type": "sale",
-    "date": "2028-02-19",
+    "date": "2026-02-19",
     "amount": "$1,001 - $15,000",
-    "date_ocr_fixed": false,
+    "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
     "page": 79
   },
@@ -15770,7 +15770,7 @@
   {
     "description": "AUTOZONE INC",
     "type": "sale",
-    "date": "2028-03-18",
+    "date": "2026-03-18",
     "amount": "$1,001 - $15,000",
     "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
@@ -15995,18 +15995,18 @@
   {
     "description": "ALBERTSON$ CO SHS CL A CLASS A",
     "type": "sale",
-    "date": "2028-01-12",
+    "date": "2026-01-12",
     "amount": "$1,001 - $15,000",
-    "date_ocr_fixed": false,
+    "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
     "page": 83
   },
   {
     "description": "PAYCHEX INC",
     "type": "sale",
-    "date": "2028-02-12",
+    "date": "2026-02-12",
     "amount": "$1,001 - $15,000",
-    "date_ocr_fixed": false,
+    "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
     "page": 83
   },
@@ -16031,27 +16031,27 @@
   {
     "description": "21584 FLUTTER ENTMT PLC F",
     "type": "sale",
-    "date": "2028-03-17",
+    "date": "2026-03-17",
     "amount": "$1,001 - $15,000",
-    "date_ocr_fixed": false,
+    "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
     "page": 83
   },
   {
     "description": "TESLA INC",
     "type": "sale",
-    "date": "2028-01-23",
+    "date": "2026-01-23",
     "amount": "$1,001 - $15,000",
-    "date_ocr_fixed": false,
+    "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
     "page": 83
   },
   {
     "description": "ORACLE CORP",
     "type": "sale",
-    "date": "2028-01-21",
+    "date": "2026-01-21",
     "amount": "$1,001 - $15,000",
-    "date_ocr_fixed": false,
+    "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
     "page": 83
   },
@@ -16067,9 +16067,9 @@
   {
     "description": "MCOONALOS CORP",
     "type": "sale",
-    "date": "2028-01-21",
+    "date": "2026-01-21",
     "amount": "$1,001 - $15,000",
-    "date_ocr_fixed": false,
+    "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
     "page": 83
   },
@@ -16499,7 +16499,7 @@
   {
     "description": "AMCORPLCF",
     "type": "sale",
-    "date": "2028-03-18",
+    "date": "2026-03-18",
     "amount": "$1,001 - $15,000",
     "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
@@ -16598,9 +16598,9 @@
   {
     "description": "CITIGROUP INC",
     "type": "sale",
-    "date": "2028-03-17",
+    "date": "2026-03-17",
     "amount": "$1,001 - $15,000",
-    "date_ocr_fixed": false,
+    "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
     "page": 89
   },
@@ -16652,36 +16652,36 @@
   {
     "description": "VERIZON COMMUNICATIONS",
     "type": "sale",
-    "date": "2028-01-21",
+    "date": "2026-01-21",
     "amount": "$1,001 - $15,000",
-    "date_ocr_fixed": false,
+    "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
     "page": 89
   },
   {
     "description": "SHOE CARNIVAL INC",
     "type": "sale",
-    "date": "2028-03-30",
+    "date": "2026-03-30",
     "amount": "$1,001 - $15,000",
-    "date_ocr_fixed": false,
+    "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
     "page": 89
   },
   {
     "description": "CARS COM INC",
     "type": "sale",
-    "date": "2028-02-26",
+    "date": "2026-02-26",
     "amount": "$1,001 - $15,000",
-    "date_ocr_fixed": false,
+    "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
     "page": 89
   },
   {
     "description": "SAMSARA INC CLASS A",
     "type": "sale",
-    "date": "2028-02-12",
+    "date": "2026-02-12",
     "amount": "$1,001 - $15,000",
-    "date_ocr_fixed": false,
+    "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
     "page": 89
   },
@@ -16706,9 +16706,9 @@
   {
     "description": "MGE ENERGY INC",
     "type": "sale",
-    "date": "2028-02-26",
+    "date": "2026-02-26",
     "amount": "$1,001 - $15,000",
-    "date_ocr_fixed": false,
+    "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
     "page": 90
   },
@@ -17057,9 +17057,9 @@
   {
     "description": "Cloudllllro Inc Cl A Sollc:llod Ordor OlscroUon Exorclaod",
     "type": "sale",
-    "date": "2028-03-27",
+    "date": "2026-03-27",
     "amount": "$15,001 - $50,000",
-    "date_ocr_fixed": false,
+    "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
     "page": 92
   },
@@ -17111,9 +17111,9 @@
   {
     "description": "VISA INC CLASS A",
     "type": "sale",
-    "date": "2028-01-21",
+    "date": "2026-01-21",
     "amount": "$15,001 - $50,000",
-    "date_ocr_fixed": false,
+    "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
     "page": 92
   },
@@ -17129,9 +17129,9 @@
   {
     "description": "TELEFLEX INC",
     "type": "sale",
-    "date": "2028-03-30",
+    "date": "2026-03-30",
     "amount": "$15,001 - $50,000",
-    "date_ocr_fixed": false,
+    "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
     "page": 92
   },
@@ -17714,7 +17714,7 @@
   {
     "description": "ARBOR RLTY TR INC REIT",
     "type": "sale",
-    "date": "2028-02-26",
+    "date": "2026-02-26",
     "amount": "$15,001 - $50,000",
     "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
@@ -17804,9 +17804,9 @@
   {
     "description": "Modtronlc Pie Sha lsln#lo00bln1v115 Sotlclllld Ordor DlscreUon Exerdaod",
     "type": "sale",
-    "date": "2028-03-27",
+    "date": "2026-03-27",
     "amount": "$15,001 - $50,000",
-    "date_ocr_fixed": false,
+    "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
     "page": 96
   },
@@ -17822,9 +17822,9 @@
   {
     "description": "INSPERJTY INC",
     "type": "sale",
-    "date": "2028-02-26",
+    "date": "2026-02-26",
     "amount": "$15,001 - $50,000",
-    "date_ocr_fixed": false,
+    "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
     "page": 96
   },
@@ -17957,7 +17957,7 @@
   {
     "description": "ADMA BIOLOGICS INC",
     "type": "sale",
-    "date": "2028-01-26",
+    "date": "2026-01-26",
     "amount": "$15,001 - $50,000",
     "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
@@ -18020,7 +18020,7 @@
   {
     "description": "ROCKET LAB CORP CLASS A",
     "type": "sale",
-    "date": "2028-02-12",
+    "date": "2026-02-12",
     "amount": "$15,001 - $50,000",
     "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
@@ -18038,7 +18038,7 @@
   {
     "description": "FACTSET RESH SYS INC",
     "type": "sale",
-    "date": "2028-02-12",
+    "date": "2026-02-12",
     "amount": "$15,001 - $50,000",
     "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
@@ -18227,7 +18227,7 @@
   {
     "description": "3MCO",
     "type": "sale",
-    "date": "2028-03-18",
+    "date": "2026-03-18",
     "amount": "$15,001 - $50,000",
     "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
@@ -18434,9 +18434,9 @@
   {
     "description": "PENNYMAC MTG INVT TR REIT",
     "type": "sale",
-    "date": "2028-03-30",
+    "date": "2026-03-30",
     "amount": "$15,001 - $50,000",
-    "date_ocr_fixed": false,
+    "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
     "page": 102
   },
@@ -18452,7 +18452,7 @@
   {
     "description": "AIRBNB INC CLASS A",
     "type": "sale",
-    "date": "2028-02-12",
+    "date": "2026-02-12",
     "amount": "$15,001 - $50,000",
     "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
@@ -18461,18 +18461,18 @@
   {
     "description": "SNOWFLAKE INC CLASS A",
     "type": "sale",
-    "date": "2028-02-12",
+    "date": "2026-02-12",
     "amount": "$15,001 - $50,000",
-    "date_ocr_fixed": false,
+    "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
     "page": 102
   },
   {
     "description": "SAILPOINT INC",
     "type": "sale",
-    "date": "2028-03-18",
+    "date": "2026-03-18",
     "amount": "$50,001 - $100,000",
-    "date_ocr_fixed": false,
+    "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
     "page": 102
   },
@@ -18488,9 +18488,9 @@
   {
     "description": "ELASTIC NVF",
     "type": "sale",
-    "date": "2028-03-18",
+    "date": "2026-03-18",
     "amount": "$50,001 - $100,000",
-    "date_ocr_fixed": false,
+    "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
     "page": 102
   },
@@ -18551,9 +18551,9 @@
   {
     "description": "General Elec Co Com Now Solldtod Ordor Dlsaetion Exerdsod AV1Jn1100 Unit Pr1a, Trnnaatllcn Your Brckor Acted As \"\"\"\"",
     "type": "sale",
-    "date": "2028-03-27",
+    "date": "2026-03-27",
     "amount": "$50,001 - $100,000",
-    "date_ocr_fixed": false,
+    "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
     "page": 102
   },
@@ -18569,9 +18569,9 @@
   {
     "description": "Bet1<ahlro Halhowav Inc Del Cl B New Solldtod Ordor Dlscrotlon Exorcised",
     "type": "sale",
-    "date": "2028-03-06",
+    "date": "2026-03-06",
     "amount": "$50,001 - $100,000",
-    "date_ocr_fixed": false,
+    "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
     "page": 102
   },
@@ -18605,9 +18605,9 @@
   {
     "description": "DATADOG INC UNSOLICITED",
     "type": "sale",
-    "date": "2028-03-23",
+    "date": "2026-03-23",
     "amount": "$50,001 - $100,000",
-    "date_ocr_fixed": false,
+    "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
     "page": 102
   },
@@ -18632,7 +18632,7 @@
   {
     "description": "BALL CORP",
     "type": "sale",
-    "date": "2028-03-17",
+    "date": "2026-03-17",
     "amount": "$50,001 - $100,000",
     "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
@@ -18641,7 +18641,7 @@
   {
     "description": "DOORDASH INC Ct.ASS A",
     "type": "sale",
-    "date": "2028-02-12",
+    "date": "2026-02-12",
     "amount": "$50,001 - $100,000",
     "date_ocr_fixed": true,
     "source_url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/$FILE/Trump,%20Donald%20J.-05.08.2026-278T(2).pdf",
