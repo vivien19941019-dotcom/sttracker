@@ -8,6 +8,7 @@ import io
 import json
 import re
 import time
+from datetime import date
 from pathlib import Path
 from urllib.parse import urljoin
 
@@ -42,7 +43,7 @@ AMOUNT_BUCKETS = {
 }
 
 # 解析邏輯改版時把這個數字加 1，爬蟲就會自動重新處理所有申報
-PARSER_VERSION = 2
+PARSER_VERSION = 3
 
 TYPE_TOKEN_RE = re.compile(r"\S*(ur[ce]has\S*|\bsa\s?l[eo]\b|xchang\S*)", re.I)
 # 交易類型後面的日期區塊，可能夾空格，例如「7/3 1/2026」
@@ -121,7 +122,17 @@ def parse_line(line, prev_line=""):
     if not parsed:
         return None, "日期不合理"
     month, day, fixed = parsed
-    year = date_m.group(3)
+    year = int(date_m.group(3))
+
+    # 交易不可能在未來：OCR 常把 2026 讀成 2028，改回最近一個合理的年份
+    today = date.today()
+    try:
+        if date(year, month, day) > today:
+            year = today.year if date(today.year, month, day) <= today else today.year - 1
+            fixed = True
+        date(year, month, day)
+    except ValueError:
+        return None, "日期不合理"
 
     amount = detect_amount(line[date_m.end():])
     if not amount:
