@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>川普持股追蹤</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%230E1A2B'/><rect x='7' y='14' width='4' height='11' fill='%235B8FE0'/><rect x='14' y='8' width='4' height='17' fill='%235B8FE0'/><rect x='21' y='17' width='4' height='8' fill='%23E08A4A'/></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#0E1A2B; --ground:#EEF1F4; --paper:#FFFFFF; --muted:#4A5565; --line:#D5DBE3;
+  --buy:#1F5FBF; --sell:#B54708; --buy-soft:#DCE7F8; --sell-soft:#F7E3D5;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+*,*::before,*::after{box-sizing:inherit}
+[hidden]{display:none !important}
+body{margin:0;background:var(--ground);color:var(--ink);font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;line-height:1.6;font-variant-numeric:tabular-nums}
+a{color:var(--buy)} a:hover{color:#123E80}
+:focus-visible{outline:3px solid var(--buy);outline-offset:2px}
+.wrap{max-width:860px;margin:0 auto;padding:0 20px}
+
+header{background:var(--ink);color:#fff;padding:36px 0 28px}
+header h1{margin:0;font-size:clamp(28px,6vw,44px);font-weight:900;letter-spacing:.02em;line-height:1.2}
+header p{margin:8px 0 0;color:#C3CDDB;font-size:15px;max-width:60ch}
+
+.totals{display:flex;flex-wrap:wrap;gap:12px 32px;margin-top:24px}
+.totals div{display:flex;flex-direction:column}
+.totals b{font-size:28px;font-weight:700;line-height:1.2}
+.totals span{font-size:13px;color:#C3CDDB}
+.totals .b{color:#8FB4EE} .totals .s{color:#F0A673}
+
+.chart{background:var(--paper);border-radius:16px;padding:20px;margin-top:-1px;margin:24px 0}
+.chart h2{margin:0 0 4px;font-size:17px}
+.chart .hint{margin:0 0 16px;font-size:13px;color:var(--muted)}
+.bars{display:flex;align-items:center;gap:6px;height:180px;overflow-x:auto;padding-bottom:4px}
+.col{flex:1 0 34px;display:flex;flex-direction:column;align-items:center;height:100%}
+.half{flex:1;width:100%;display:flex;justify-content:center}
+.half.top{align-items:flex-end} .half.bot{align-items:flex-start}
+.bar{width:70%;max-width:28px;border-radius:4px 4px 0 0;background:var(--buy)}
+.half.bot .bar{border-radius:0 0 4px 4px;background:var(--sell)}
+.axis{height:1px;width:100%;background:var(--line);flex:0 0 1px}
+.col small{font-size:11px;color:var(--muted);margin-top:4px;white-space:nowrap}
+.legend{display:flex;gap:16px;font-size:13px;color:var(--muted);margin-top:10px}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;vertical-align:middle}
+
+.controls{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:14px}
+.seg{display:flex;background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:3px}
+.seg button,.chip{min-height:44px;padding:0 16px;border:0;border-radius:9px;background:transparent;font:inherit;font-size:14px;color:var(--ink);cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--ink);color:#fff;font-weight:700}
+.chip{border:1px solid var(--line);background:var(--paper);border-radius:12px}
+.chip[aria-pressed="true"]{border-color:var(--ink);background:var(--ink);color:#fff;font-weight:700}
+.search{flex:1 1 220px;display:flex}
+.search label{position:absolute;left:-9999px}
+.search input{width:100%;min-height:44px;border:1px solid var(--line);border-radius:12px;padding:0 14px;font:inherit;font-size:15px;background:var(--paper);color:var(--ink)}
+
+.count{font-size:13px;color:var(--muted);margin:0 0 8px}
+ol.list{list-style:none;margin:0;padding:0;background:var(--paper);border-radius:16px;overflow:hidden}
+.row{display:grid;grid-template-columns:92px minmax(0,1fr) auto;gap:4px 14px;padding:14px 18px;border-bottom:1px solid #E6EAF0;align-items:start}
+.row:last-child{border-bottom:0}
+.date{font-size:14px;color:var(--muted);padding-top:2px}
+.desc{font-size:15px;font-weight:500;overflow-wrap:anywhere}
+.meta{font-size:12px;color:var(--muted);margin-top:2px}
+.meta a{color:var(--muted)}
+.right{display:flex;flex-direction:column;align-items:flex-end;gap:4px;text-align:right}
+.tag{font-size:12px;font-weight:700;padding:1px 8px;border-radius:6px}
+.tag.purchase{background:var(--buy-soft);color:#174A96}
+.tag.sale{background:var(--sell-soft);color:#8A3606}
+.tag.exchange{background:#E6EAF0;color:var(--ink)}
+.amt{font-size:14px;white-space:nowrap}
+.warn{color:var(--sell)}
+@media (max-width:560px){
+  .row{grid-template-columns:minmax(0,1fr) auto}
+  .date{grid-column:1/-1;padding:0;font-size:13px}
+}
+.more{display:block;margin:16px auto 0;min-height:44px;padding:0 28px;border:1px solid var(--ink);border-radius:12px;background:var(--paper);font:inherit;font-size:15px;color:var(--ink);cursor:pointer}
+.state{background:var(--paper);border-radius:16px;padding:28px;text-align:center;color:var(--muted)}
+footer{font-size:12px;color:var(--muted);padding:32px 0 48px;max-width:70ch}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1>川普持股追蹤</h1>
+    <p>整理自美國政府道德辦公室（OGE）公開的 278-T 交易申報，每天自動更新。</p>
+    <div class="totals" id="totals" aria-live="polite"></div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="chart" id="chartBox" hidden>
+    <h2>每月交易筆數</h2>
+    <p class="hint">上方是買進，下方是賣出；月份是交易發生的時間，不是公開的時間。</p>
+    <div class="bars" id="bars" role="img" aria-label="每月買進與賣出筆數"></div>
+    <div class="legend"><span><i style="background:var(--buy)"></i>買進</span><span><i style="background:var(--sell)"></i>賣出</span></div>
+  </section>
+
+  <div class="controls" id="controls" hidden>
+    <div class="seg" role="group" aria-label="交易類型">
+      <button type="button" data-type="all" aria-pressed="true">全部</button>
+      <button type="button" data-type="purchase" aria-pressed="false">買進</button>
+      <button type="button" data-type="sale" aria-pressed="false">賣出</button>
+    </div>
+    <button type="button" class="chip" id="bigOnly" aria-pressed="false">$1M 以上</button>
+    <div class="search">
+      <label for="q">搜尋公司或債券名稱</label>
+      <input id="q" type="search" placeholder="搜尋，例如 APPLE、NVIDIA" autocomplete="off">
+    </div>
+  </div>
+
+  <p class="count" id="count"></p>
+  <div id="state" class="state">載入資料中…</div>
+  <ol class="list" id="list" hidden></ol>
+  <button type="button" class="more" id="more" hidden>顯示更多</button>
+
+  <footer>
+    金額為申報表上的區間，並非實際金額；申報通常在交易後 30 至 45 天才公開。資料由程式從掃描檔自動辨識，可能有誤，標示「日期經自動修正」的紀錄請以原始申報為準。本網站僅為資訊整理，不構成投資建議。
+  </footer>
+</main>
+
+<script>
+(function () {
+  var TYPE_LABEL = { purchase: "買進", sale: "賣出", exchange: "交換" };
+  var PAGE = 60;
+  var all = [], view = [], shown = 0;
+  var filter = { type: "all", big: false, q: "" };
+
+  var $ = function (id) { return document.getElementById(id); };
+
+  function lowerBound(amount) {
+    if (/over/i.test(amount)) return 50000001;
+    var m = String(amount).match(/\$([\d,]+)/);
+    return m ? parseInt(m[1].replace(/,/g, ""), 10) : 0;
+  }
+  function shortAmount(amount) {
+    return String(amount)
+      .replace(/\$([\d,]+)/g, function (_, n) {
+        var v = parseInt(n.replace(/,/g, ""), 10);
+        if (v >= 1000000) return "$" + Math.round(v / 100000) / 10 + "M";
+        if (v >= 1000) return "$" + Math.round(v / 1000) + "K";
+        return "$" + v;
+      })
+      .replace(/Over/i, "超過");
+  }
+  function fmtDate(d) {
+    var p = d.split("-");
+    return p[0] + "/" + Number(p[1]) + "/" + Number(p[2]);
+  }
+  function esc(s) {
+    return String(s).replace(/[&<>"']/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+    });
+  }
+
+  function renderTotals() {
+    var buys = 0, sells = 0, latest = "";
+    all.forEach(function (t) {
+      if (t.type === "purchase") buys++;
+      else if (t.type === "sale") sells++;
+      if (t.date > latest) latest = t.date;
+    });
+    $("totals").innerHTML =
+      "<div><b>" + all.length.toLocaleString() + "</b><span>筆交易</span></div>" +
+      '<div><b class="b">' + buys.toLocaleString() + "</b><span>買進</span></div>" +
+      '<div><b class="s">' + sells.toLocaleString() + "</b><span>賣出</span></div>" +
+      "<div><b>" + (latest ? fmtDate(latest) : "—") + "</b><span>最近一筆交易日</span></div>";
+  }
+
+  function renderChart() {
+    var months = {};
+    all.forEach(function (t) {
+      var k = t.date.slice(0, 7);
+      months[k] = months[k] || { b: 0, s: 0 };
+      if (t.type === "purchase") months[k].b++;
+      else if (t.type === "sale") months[k].s++;
+    });
+    var keys = Object.keys(months).sort();
+    if (!keys.length) return;
+    var max = Math.max.apply(null, keys.map(function (k) { return Math.max(months[k].b, months[k].s); })) || 1;
+    $("bars").innerHTML = keys.map(function (k) {
+      var m = months[k], parts = k.split("-");
+      return '<div class="col" title="' + parts[0] + "年" + Number(parts[1]) + "月：買進 " + m.b + "、賣出 " + m.s + '">' +
+        '<div class="half top"><div class="bar" style="height:' + (m.b / max * 100) + '%"></div></div>' +
+        '<div class="axis"></div>' +
+        '<div class="half bot"><div class="bar" style="height:' + (m.s / max * 100) + '%"></div></div>' +
+        "<small>" + parts[0].slice(2) + "/" + Number(parts[1]) + "</small></div>";
+    }).join("");
+    $("chartBox").hidden = false;
+  }
+
+  function applyFilter() {
+    var q = filter.q.trim().toLowerCase();
+    view = all.filter(function (t) {
+      if (filter.type !== "all" && t.type !== filter.type) return false;
+      if (filter.big && lowerBound(t.amount) < 1000001) return false;
+      if (q && t.description.toLowerCase().indexOf(q) === -1) return false;
+      return true;
+    });
+    shown = 0;
+    $("list").innerHTML = "";
+    $("count").textContent = "共 " + view.length.toLocaleString() + " 筆符合條件";
+    if (!view.length) {
+      $("list").hidden = true;
+      $("more").hidden = true;
+      $("state").hidden = false;
+      $("state").textContent = "沒有符合條件的交易。試著清除搜尋字詞，或切回「全部」。";
+      return;
+    }
+    $("state").hidden = true;
+    $("list").hidden = false;
+    renderMore();
+  }
+
+  function renderMore() {
+    var next = view.slice(shown, shown + PAGE);
+    $("list").insertAdjacentHTML("beforeend", next.map(function (t) {
+      var src = t.source_url ? '<a href="' + esc(t.source_url) + "#page=" + (t.page || 1) + '" target="_blank" rel="noopener">原始申報第 ' + (t.page || "?") + " 頁</a>" : "";
+      var fixed = t.date_ocr_fixed ? '<span class="warn">日期經自動修正</span>' : "";
+      return '<li class="row">' +
+        '<div class="date">' + fmtDate(t.date) + "</div>" +
+        '<div><div class="desc">' + esc(t.description) + '</div><div class="meta">' + [src, fixed].filter(Boolean).join("　") + "</div></div>" +
+        '<div class="right"><span class="tag ' + esc(t.type) + '">' + (TYPE_LABEL[t.type] || esc(t.type)) + '</span><span class="amt">' + esc(shortAmount(t.amount)) + "</span></div>" +
+        "</li>";
+    }).join(""));
+    shown += next.length;
+    $("more").hidden = shown >= view.length;
+  }
+
+  document.querySelectorAll(".seg button").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      document.querySelectorAll(".seg button").forEach(function (b) { b.setAttribute("aria-pressed", String(b === btn)); });
+      filter.type = btn.dataset.type;
+      applyFilter();
+    });
+  });
+  $("bigOnly").addEventListener("click", function () {
+    filter.big = !filter.big;
+    this.setAttribute("aria-pressed", String(filter.big));
+    applyFilter();
+  });
+  var timer;
+  $("q").addEventListener("input", function (e) {
+    clearTimeout(timer);
+    timer = setTimeout(function () { filter.q = e.target.value; applyFilter(); }, 200);
+  });
+  $("more").addEventListener("click", renderMore);
+
+  fetch("data/trades.json", { cache: "no-cache" })
+    .then(function (r) {
+      if (!r.ok) throw new Error("HTTP " + r.status);
+      return r.json();
+    })
+    .then(function (data) {
+      all = (Array.isArray(data) ? data : []).filter(function (t) { return t && t.date; });
+      all.sort(function (a, b) { return a.date < b.date ? 1 : a.date > b.date ? -1 : 0; });
+      if (!all.length) {
+        $("state").textContent = "目前還沒有交易資料。請到 GitHub 的 Actions 分頁手動執行一次爬蟲。";
+        return;
+      }
+      renderTotals();
+      renderChart();
+      $("controls").hidden = false;
+      applyFilter();
+    })
+    .catch(function () {
+      $("state").textContent = "讀不到 data/trades.json。請確認這個網頁和 data 資料夾放在同一個 repo，並且是透過 GitHub Pages 網址開啟，而不是直接在電腦上點兩下開檔。";
+    });
+})();
+</script>
+</body>
+</html>
